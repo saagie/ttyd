@@ -1,5 +1,7 @@
 FROM tsl0922/ttyd:latest
 
+LABEL version="1.0"
+
 RUN apt-get update \
     && apt-get install -y \
     wget \
